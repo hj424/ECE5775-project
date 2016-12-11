@@ -1,9 +1,9 @@
 # ECE5775-project
 3D image rendering: software-hardware co-design
 
-#=========================================================================================
+#=================
 # ecelinux
-#=========================================================================================
+#=================
 all source file for 3D rendering system, including:
 1. projection stage + projection_test bench + projection header file
 2. rasterization stage + rasterization_test bench + rasterization header file
@@ -27,9 +27,9 @@ commands:
 2. generate bit file
    # source run_bitstream.sh
    
-#=========================================================================================
+#=============
 # zedboard
-#=========================================================================================
+#=============
 files for running on fpga.
 1. host.cpp - host file in batch mode
 2. Makefile - make file for running program in fpga.
