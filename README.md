@@ -33,6 +33,4 @@ commands:
 files for running on fpga.
 1. host.cpp - host file in batch mode
 2. Makefile - make file for running program in fpga.
-
-Tips:
-1. When run the program on zedboard, put all the code in the same file folder EXPECT the Makefile in ecelinux
+3. all other source files:*.cpp, *.h, input.dat, etc.
